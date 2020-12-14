@@ -14,11 +14,11 @@ Thank you for stopping by!
 3. Codecademy
 4. Gitlab
 5. Github
-6. 
+6. HTML & CSS
 ---
 
 ### Contact Info
 
-Cell: 647-929-5340
-E-mail: matthewbianco@protonmail.com
-Linkedin: https://www.linkedin.com/in/matthew-bianco-a90193200/
+Cell: 647-929-5340 <br />
+E-mail: matthewbianco@protonmail.com <br />
+Linkedin: https://www.linkedin.com/in/matthew-bianco-a90193200/ <br />
