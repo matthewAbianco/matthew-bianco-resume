@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<!-- Add alt atributes to photos, leave good notes. -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,30 +9,62 @@
 </head>
 
 <body>
+
+    <!-- header with photo of self, name, title, and about section-->
     <header class="header">
-        <img src="Assets/images/headshot.jpg"/>
-     
+        <div>
+        <img src="Assets/images/headshot.jpg" alt="Matthew Bianco head shot"/>
+        </div>
+        <div>
         <h1 class="title">Matthew Bianco</h1>
         <h2 class="title">Web Developer</h2>
+        </div>
+
+        <h1 id="about" class="about-me">About</h1>
+        <p> I am a student in the Full Stack Web developer course at the University of Toronto, School for Continuing Studies.  I am somewhat proficient in HTML and CSS and I am currently learning JavaScript. I use to be a Stunt Rigger in the Film Industry. Covid has made that career difficult for all involved and becoming a full stack web developer was a great way to capitalize on my current skill set while working towards something valuable in the future.   </p>
+    </div>
     </header>
+
+    <!-- contact info section. Email, Location, Git Hub, Cell, Linkedin, Stack Overflow. -->
+<section id="contact" class="contact-info">
+    <h1 id="contactinfostyling">Contact info:</h1>
+   <h3> <a href="matthewbianco@protonmail.com">Email: matthewbianco@protonmail.com</a></h3>
+    <h3><p >Phone: 647-929-5340</p> </h3>
+   <h3> <a href="https://www.google.com/search?client=firefox-b-d&q=map+of+toronto"> City: Toronto, ON</a></h3>
+    <h3> <a href="https://github.com/matthewAbianco"> Github</a><h3>
+    
+   <!-- Stack Overflow -->
+</section>
+
+<!-- blow up section of filler photos/future samples of my projects set as 2 rows of 3. current assets are placeholders for future projects-->
+<h2 id="projects">Projects</h2>
+<section class="projects">
+
+    <img src="./Assets/images/photos/starwars1.jpg" alt="Star Wars episode 1 poster" />
+    <img src="./Assets/images/photos/starwars2.jpg" alt="Star Wars eposide 2 poster" />
+    <img src="./Assets/images/photos/starwars3.jpg" alt="Star Wars eposide 3 poster" />
+    <img src="./Assets/images/photos/starwars4.jpg" alt="Star Wars eposide 4 poster" />
+    <img src="./Assets/images/photos/starwars5.jpg" alt="Star Wars eposide 5 poster" />
+    <img src="./Assets/images/photos/starwars6.jpg" alt="Star Wars eposide 6 poster" />
+</section>
 
 </body>
 
 <footer>
-
+<!-- contact HREF section start -->
     <nav>
         <ul>
             <li> 
-                <strong> <a href="about" stlye="color:red">ABOUT</a> </strong>
+                <strong> <a href="#about" stlye="color:red">ABOUT</a> </strong>
             </li>
             <li>
-                <strong> <a href="projects">PROJECTS</a> </strong>  
+                <strong> <a href="#projects">PROJECTS</a> </strong>  
             </li>
             <li>
-               <strong> <a href="contact">CONTACTS</a> </strong>
+               <strong> <a href="#contact">CONTACT</a> </strong>
             </li>
         </ul>
     </nav>
-
+<!--Href section end-->
 </footer>
 </html>

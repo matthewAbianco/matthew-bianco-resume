@@ -2,15 +2,17 @@
     margin: 0;
     padding: 0;
 }
+/* semantic html elements */
 
 body{
     color:teal;
-    background-image: url(../Matthew-Bianco-Resume/Assets/images/headerphoto.jpg)
+    background-image: url(../Matthew-Bianco-Resume/Assets/images/photos/backgroundart.png)
 }
-
+/* Header section start */
 header {
     display: flex;
-    flex-direction:column;
+    flex-direction: row;
+    align-content: flex-start;
     background-color: seashell;
 }
 
@@ -23,12 +25,69 @@ header h2{
     color:red;
     padding: 30px;
 }
+
+header p {
+    font-size:40px;
+    padding: 30px;
+}
+
 header img{
     display:flex;
     width: 200px;
     padding: 15px;
 }
+/* Header section end */
 
+/* "projects" title word */
+h2 {
+    display: flex;
+    justify-content: center;
+    margin:20px;
+}
+
+
+
+/* contact section */
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-content: center;
+    color: whitesmoke;
+    background-color:thistle;
+    border: 20px, 30px
+}
+
+a:link {
+    color:white;
+}
+
+a:visited{
+    color:white;
+}
+.contact-info h3 {
+    padding: 30px, 20px;
+}
+/* contact section end */
+
+/* projects styling start */
+
+.projects {
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-between;
+
+}
+
+.projects img {
+    height: 600px;
+    width: 480px;
+    padding: 20px;
+    margin: 10px;
+}
+
+/* projects styling end */
 nav ul {
     padding: 30px;
     display: flex;
@@ -38,8 +97,9 @@ nav ul {
   }
   
 nav a {
-    font-size: 30px;
+    font-size: 40px;
     text-decoration: none;
     color: red;
     padding: 0 20px;
 }
+/* section for tablet/cellphone screen sizing.  */
