@@ -6,7 +6,7 @@
 
 body{
     color:teal;
-    background-image: url(../Matthew-Bianco-Resume/Assets/images/photos/backgroundart.png)
+    /* background-image: url(../Matthew-Bianco-Resume/Assets/images/photos/backgroundart.png) */
 }
 /* Header section start */
 header {
@@ -81,11 +81,17 @@ a:visited{
 }
 
 .projects img {
+    padding: 20px;
+    transition: transform .3s;
     height: 600px;
     width: 480px;
-    padding: 20px;
     margin: 10px;
 }
+
+.projects img:hover {
+    transform: scale(1.1);
+}
+
 
 /* projects styling end */
 nav ul {
@@ -103,3 +109,57 @@ nav a {
     padding: 0 20px;
 }
 /* section for tablet/cellphone screen sizing.  */
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+   
+header {
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+    }
+
+.projects {
+
+    flex-direction: column;
+    align-items: center;
+}
+
+  /* MEDIA QUERY FOR TABLETS AND SMALLER */
+  @media screen and (max-width: 768px) {
+
+header {
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+    }
+
+#webdeveloper {
+    padding: 0;
+}
+
+.projects {
+
+    flex-direction: column;
+    align-items: center;
+}
+
+     
+  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+  @media screen and (max-width: 575px) {
+
+    header {
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+    }
+
+#webdeveloper {
+    padding: 0;
+}
+
+.projects {
+
+    flex-direction: column;
+    align-items: center;
+}
