@@ -91,7 +91,9 @@ a:visited{
 .projects img:hover {
     transform: scale(1.1);
 }
-
+ footer {
+     background-color: thistle;
+ }
 
 /* projects styling end */
 nav ul {
